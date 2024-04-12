@@ -1,0 +1,118 @@
+*{
+    margin: 15px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+	width:100%;
+	min-height:100%;
+	font-size:1.2rem;
+	background:#34495e;
+	display:flex;
+	justify-content :center;
+	align-item:center;
+	
+}
+.container{
+	background:white;
+	max-width:800px;
+	min-height:380px;
+	display:flex;
+	justify-content:space-between;
+	align-item :flex-start;
+	padding :0.5rem 1.5rem;
+}
+.left{
+	width:45%;
+	
+}
+.right{
+	marging-left:0.7px;
+	marging-right:1px;
+	
+	width:450%;	
+}
+form{
+	padding:1rem;
+	
+}
+h3{
+	margin-top:1rem;
+	color:#2c3e50;
+}
+form input {
+    
+    font-size: 26px;
+    font-weight: 350;
+  
+    
+}
+form input[type="text"]{
+	width:100%;
+	padding:0.5rem 0.7rem;
+	outline:black;
+	margin:0.5rem 0;
+	border-width: 1px;
+	
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 40px;
+    color: black;
+    pointer-events: none;
+    outline:black; 
+    transition: 5s;
+}
+form input[type="tel"]{
+	width:100%;
+	padding:0.5rem 0.7rem;
+	margin:0.5rem 0;
+	outline:black;
+
+	}
+
+form input[type="email"]{
+	width:100%;
+	padding:0.5rem 0.7rem;
+	margin:0.5rem 0;
+	outline:black;
+	
+}
+button{
+	background: transparent;
+    padding: 28px;
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+    border-color: 1px deepskyblue;
+    font-size: 30px;
+    box-align: center;
+}
+button.a{
+	color:yellow;
+form input[type="submit"]{
+	width:100%;
+	padding:0.7rem 1.5rem;
+	background: #34495e;
+	color:white;
+	margin-top:1rem;
+	cursor:pointer;
+}
+
+
+input[type="submit"]:hover{
+	background:#2c3e50;
+}
+
+@media only screen and(max-width :770px){
+	.container{
+	flex-direction:column;
+	
+	
+	}
+}

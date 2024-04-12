@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    top-margin:15px;
+    padding: 0px;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font:bold;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper {
+    position: relative;
+    max-width: 500px;
+    height: 350px;
+    background:white;
+    border-radius: 20px;
+    backdrop-filter: blur 10px;
+    box-shadow: 0 20px 20px blanchedalmond;
+}
+
+p{
+	text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-size: 60px;
+    font: bold;
+    text-shadow: 2px 2px gold;
+}
+button {
+    padding: 26px;
+    border-radius: 5px;
+    background-color: #ff0080;
+    border-color: 1px deepskyblue;
+    font-size: 18px;
+    box-align: left;
+}
+
+a {
+    color: white;
+    font-size:20px;
+}

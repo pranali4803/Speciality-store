@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    top-margin:5px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wrapper{
+    position: relative;
+   width: 500px;
+    height:750;
+    background:transparent;
+    border: 5px solid orangered;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+}
+body{
+    background-position: center;
+    background-size: cover;
+    font-size:30px;
+    font:bold;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    
+   
+}
+body{
+    color:white;
+    text-shadow: 2px 2px black;
+	
+    
+    
+   
+}
+header{
+    font-size: 60px;
+    font: bold;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px bisque;
+    text-border:black;
+    text-align: center;
+    outline: #fff8f4;
+
+}
+
+h2{
+    font-size:  24px; 
+    color: white;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+     width: 550px;
+    margin: 60px 0;
+    border-bottom: 2px solid orangered;
+}
+
+.input-box label{
+position: absolute;
+top: 50%;
+left: 5px;
+transform:translateV(-50%);
+font-size: 50px;
+outline: blue;
+color: #fff;
+
+pointer-events: none;
+transition: 5s;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 50px;
+	color: #fff;
+    font-size: 30px;
+    font:bold;
+    pointer-events: none;
+    transition: 5s;
+}
+form input {
+    height: 35px;
+      width: 55%;
+    outline: blue;
+    border: black;
+    padding: 0 15px;
+    font-size: 26px;
+    font-weight: 350;
+    color: black;
+    border-radius: 8px;
+}
+.input-box input{
+    width: 50%;
+    height: 60px;
+    padding: 0 30px;
+    font-size: 60px;
+    font-weight: 350;
+    background: transparent;
+    border: orangered;
+    outline: orangered;
+    color: #fff;
+    
+}
+p{
+    font-size: 30px;
+    color:blue;
+    text-shadow:none;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.input-box{
+    width: 450px;
+}
+a{
+    text-align: left;
+    color:blue;
+    text-shadow:none;
+    
+
+}
+
+
+.form input[type="submit"]{
+    background: transparent;
+    width: 50%;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    background:black;
+    border:#ff0000;
+    outline: #ff0000;
+    outline:2px;
+    border:1.8px;
+    outline:orangered;
+    border-radius: 40px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-size: 37px;
+    color: orangered;
+    font-weight: 500;
+    transition: 1s;
+}

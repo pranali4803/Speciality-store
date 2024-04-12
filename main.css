@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10em;
+    text-decoration-color: deeppink;
+    color: white;
+    text-shadow: 4px 4px crimson;
+}
+
+p {
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px bisque;
+    
+}
+
+button {
+    background: transparent;
+    text-decoration: none;
+    width: 200px;
+    height: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    background: #ff0482;
+    border: 2.5px solid deepskyblue;
+    border-radius: 40px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-size: 2em;
+    font-weight: 500;
+}
